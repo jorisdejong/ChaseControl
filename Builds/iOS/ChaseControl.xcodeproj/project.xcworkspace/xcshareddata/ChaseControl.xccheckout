@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BAD39AF4-C239-4E80-90D8-84069C5E7416</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChaseControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F54959994F1C19F5F4BD896F9A3375A2E8F7332</key>
+		<string>https://github.com/jorisdejong/ChaseControl</string>
+		<key>DEBAC9C6799FD4E8074B3BAF720718E3C3499FA0</key>
+		<string>https://github.com/julianstorer/JUCE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Builds/iOS/ChaseControl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F54959994F1C19F5F4BD896F9A3375A2E8F7332</key>
+		<string>../../../..</string>
+		<key>DEBAC9C6799FD4E8074B3BAF720718E3C3499FA0</key>
+		<string>../../../../../JUCE</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jorisdejong/ChaseControl</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F54959994F1C19F5F4BD896F9A3375A2E8F7332</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F54959994F1C19F5F4BD896F9A3375A2E8F7332</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChaseControl</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DEBAC9C6799FD4E8074B3BAF720718E3C3499FA0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JUCE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="OGjDkH" name="ChaseControl" projectType="guiapp" version="1.0.0"
               bundleIdentifier="com.yourcompany.ChaseControl" includeBinaryInAppConfig="1"
-              jucerVersion="3.1.1">
+              jucerVersion="3.1.0">
   <MAINGROUP id="CRgV3z" name="ChaseControl">
     <GROUP id="{6244E150-2A4E-919D-379F-1038AFAC3F83}" name="Source">
       <FILE id="qz3pji" name="Interface.cpp" compile="1" resource="0" file="Source/Interface.cpp"/>
