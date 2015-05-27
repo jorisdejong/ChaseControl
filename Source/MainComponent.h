@@ -11,6 +11,9 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
+#include "TabComponent.h"
+
+
 
 //==============================================================================
 /*
@@ -28,6 +31,8 @@ public:
     void resized();
 
 private:
+	ScopedPointer<TabComponent> tabs;
+	
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };

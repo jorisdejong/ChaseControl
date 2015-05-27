@@ -12,7 +12,9 @@
 //==============================================================================
 MainContentComponent::MainContentComponent()
 {
-    setSize (600, 400);
+	tabs = new TabComponent();
+	addAndMakeVisible( tabs );
+    setSize (2048, 1536);
 }
 
 MainContentComponent::~MainContentComponent()
@@ -33,4 +35,6 @@ void MainContentComponent::resized()
     // This is called when the MainContentComponent is resized.
     // If you add any child components, this is where you should
     // update their positions.
+	tabs->setBoundsRelative(0.0,0.0,1.0,1.0);
+	
 }

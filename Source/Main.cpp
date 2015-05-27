@@ -66,8 +66,8 @@ public:
                                                     DocumentWindow::allButtons)
         {
             setUsingNativeTitleBar (true);
-            setContentOwned (new MainContentComponent(), true);
-
+            setContentOwned (new MainContentComponent(), false);
+			setFullScreen(true);
             centreWithSize (getWidth(), getHeight());
             setVisible (true);
         }
