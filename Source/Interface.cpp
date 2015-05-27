@@ -435,6 +435,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (chaseButton3 = new ImageButton ("new button"));
+    chaseButton3->setRadioGroupId (1);
     chaseButton3->addListener (this);
 
     chaseButton3->setImages (false, true, false,
@@ -442,6 +443,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (chaseButton2 = new ImageButton ("new button"));
+    chaseButton2->setRadioGroupId (1);
     chaseButton2->addListener (this);
 
     chaseButton2->setImages (false, true, false,
@@ -449,6 +451,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (chaseButton1 = new ImageButton ("new button"));
+    chaseButton1->setRadioGroupId (1);
     chaseButton1->addListener (this);
 
     chaseButton1->setImages (false, true, false,
@@ -493,6 +496,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (scaleButton3 = new ImageButton ("new button"));
+    scaleButton3->setRadioGroupId (2);
     scaleButton3->addListener (this);
 
     scaleButton3->setImages (false, true, false,
@@ -500,6 +504,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (scaleButton2 = new ImageButton ("new button"));
+    scaleButton2->setRadioGroupId (2);
     scaleButton2->addListener (this);
 
     scaleButton2->setImages (false, true, false,
@@ -507,6 +512,7 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (scaleButton1 = new ImageButton ("new button"));
+    scaleButton1->setRadioGroupId (2);
     scaleButton1->addListener (this);
 
     scaleButton1->setImages (false, true, false,
@@ -651,7 +657,7 @@ Interface::Interface ()
 	scaleButton7->setClickingTogglesState(true);
 	scaleButton8->setClickingTogglesState(true);
 
-	
+
     //[/Constructor]
 }
 
@@ -1717,19 +1723,19 @@ BEGIN_JUCER_METADATA
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="a51c51d767932176" memberName="chaseButton3"
                virtualName="" explicitFocusOrder="0" pos="273 519 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="1" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="eb07fa7fe7b0abd4" memberName="chaseButton2"
                virtualName="" explicitFocusOrder="0" pos="145 519 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="1" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="d8b3ea2f3ccd10f2" memberName="chaseButton1"
                virtualName="" explicitFocusOrder="0" pos="17 519 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="1" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
@@ -1765,19 +1771,19 @@ BEGIN_JUCER_METADATA
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="f06d6f8d81e0187b" memberName="scaleButton3"
                virtualName="" explicitFocusOrder="0" pos="273 633 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="2" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="c17fa8db0de5fd60" memberName="scaleButton2"
                virtualName="" explicitFocusOrder="0" pos="145 633 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="2" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
   <IMAGEBUTTON name="new button" id="8d185f0b0a10188d" memberName="scaleButton1"
                virtualName="" explicitFocusOrder="0" pos="17 633 96 88" buttonText="new button"
-               connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="0"
+               connectedEdges="0" needsCallback="1" radioGroupId="2" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
