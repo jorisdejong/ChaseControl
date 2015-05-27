@@ -63,10 +63,11 @@ public:
     public:
         MainWindow (String name)  : DocumentWindow (name,
                                                     Colours::lightgrey,
-                                                    DocumentWindow::allButtons)
+													0)
         {
-            setUsingNativeTitleBar (true);
-            setContentOwned (new MainContentComponent(), false);
+            setContentOwned (new MainContentComponent(), true);
+			setUsingNativeTitleBar(true);
+			
 			setFullScreen(true);
             centreWithSize (getWidth(), getHeight());
             setVisible (true);
