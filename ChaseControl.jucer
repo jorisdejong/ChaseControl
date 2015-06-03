@@ -5,6 +5,8 @@
               jucerVersion="3.1.1">
   <MAINGROUP id="CRgV3z" name="ChaseControl">
     <GROUP id="{6244E150-2A4E-919D-379F-1038AFAC3F83}" name="Source">
+      <FILE id="qEouig" name="Settings.cpp" compile="1" resource="0" file="Source/Settings.cpp"/>
+      <FILE id="HoPjYG" name="Settings.h" compile="0" resource="0" file="Source/Settings.h"/>
       <FILE id="O9u93F" name="TabComponent.cpp" compile="1" resource="0"
             file="Source/TabComponent.cpp"/>
       <FILE id="F04UHs" name="TabComponent.h" compile="0" resource="0" file="Source/TabComponent.h"/>

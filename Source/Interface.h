@@ -83,6 +83,20 @@ public:
     static const int _96x96But_03_pngSize;
     static const char* _96x96But_04_png;
     static const int _96x96But_04_pngSize;
+    static const char* _1024x16_balkGrijs_02_png;
+    static const int _1024x16_balkGrijs_02_pngSize;
+    static const char* _1024x16_balkGrijs_03_png;
+    static const int _1024x16_balkGrijs_03_pngSize;
+    static const char* _1024x16_balkGrijs_04_png;
+    static const int _1024x16_balkGrijs_04_pngSize;
+    static const char* _1024x112_rekordbalk01_2_png;
+    static const int _1024x112_rekordbalk01_2_pngSize;
+    static const char* _1024x112_rekordbalk01_1_png;
+    static const int _1024x112_rekordbalk01_1_pngSize;
+    static const char* _1024x112_rekordbalk01_3_png;
+    static const int _1024x112_rekordbalk01_3_pngSize;
+    static const char* _1024x112_rekordbalk01_4_png;
+    static const int _1024x112_rekordbalk01_4_pngSize;
 
 
 private:
@@ -90,6 +104,8 @@ private:
     //[/UserVariables]
 
     //==============================================================================
+    ScopedPointer<Label> Label2;
+    ScopedPointer<Label> Label4;
     ScopedPointer<ImageButton> controlsButton7;
     ScopedPointer<ImageButton> controlsButton5;
     ScopedPointer<ImageButton> controlsButton6;
@@ -124,7 +140,6 @@ private:
     ScopedPointer<Slider> slider;
     ScopedPointer<ImageButton> stepButton13;
     ScopedPointer<ImageButton> stepButton12;
-    ScopedPointer<ImageButton> imageButton64;
     ScopedPointer<ImageButton> stepButton10;
     ScopedPointer<ImageButton> stepButton9;
     ScopedPointer<ImageButton> stepButton8;
@@ -157,8 +172,6 @@ private:
     ScopedPointer<ImageButton> scaleButton3;
     ScopedPointer<ImageButton> scaleButton2;
     ScopedPointer<ImageButton> chaseButton9;
-    ScopedPointer<Label> Label2;
-    ScopedPointer<Label> Label4;
     ScopedPointer<Label> Label5;
     ScopedPointer<Label> Label6;
     ScopedPointer<ImageButton> controlsButton15;
@@ -171,19 +184,19 @@ private:
     ScopedPointer<ImageButton> controlsButton10;
     ScopedPointer<ImageButton> controlsButton11;
     ScopedPointer<ImageButton> stepButton11;
-    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x112_rekordbalk01_2_png;
     Image cachedImage__1024x224_rekordbalk03_png;
     Image cachedImage__1024x224_rekordbalk05_png;
     Image cachedImage__1024x52_rekordbalk01_png;
     Image cachedImage__1024x21_balkGrijs_05_png;
-    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x112_rekordbalk01_1_png;
     Image cachedImage__1024x16_balkGrijs_01_png;
-    Image cachedImage__1024x112_rekordbalk01_png;
-    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x112_rekordbalk01_4_png;
+    Image cachedImage__1024x112_rekordbalk01_3_png;
     Image cachedImage__1024x16_balkGrijs_01_png;
-    Image cachedImage__1024x16_balkGrijs_01_png;
-    Image cachedImage__1024x16_balkGrijs_01_png;
-    Image cachedImage__1024x16_balkGrijs_01_png;
+    Image cachedImage__1024x16_balkGrijs_02_png;
+    Image cachedImage__1024x16_balkGrijs_03_png;
+    Image cachedImage__1024x16_balkGrijs_04_png;
 
 
     //==============================================================================
