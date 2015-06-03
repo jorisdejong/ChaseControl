@@ -640,14 +640,14 @@ Interface::Interface ()
 
 
     //[Constructor] You can add your own custom stuff here..
-	scaleButton1->setClickingTogglesState(true);
-	scaleButton2->setClickingTogglesState(true);
-	scaleButton3->setClickingTogglesState(true);
-	scaleButton4->setClickingTogglesState(true);
-	scaleButton5->setClickingTogglesState(true);
-	scaleButton6->setClickingTogglesState(true);
-	scaleButton7->setClickingTogglesState(true);
-	scaleButton8->setClickingTogglesState(true);
+//	scaleButton1->setClickingTogglesState(true);
+//	scaleButton2->setClickingTogglesState(true);
+//	scaleButton3->setClickingTogglesState(true);
+//	scaleButton4->setClickingTogglesState(true);
+//	scaleButton5->setClickingTogglesState(true);
+//	scaleButton6->setClickingTogglesState(true);
+//	scaleButton7->setClickingTogglesState(true);
+//	scaleButton8->setClickingTogglesState(true);
 
 
     //[/Constructor]
