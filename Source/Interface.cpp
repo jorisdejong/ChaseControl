@@ -57,178 +57,178 @@ Interface::Interface ()
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling7 = new ImageButton ("new button"));
-    scaling7->addListener (this);
+    addAndMakeVisible (scalingButton7 = new ImageButton ("new button"));
+    scalingButton7->addListener (this);
 
-    scaling7->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling8 = new ImageButton ("new button"));
-    scaling8->setButtonText (TRANS("Scale 08"));
-    scaling8->addListener (this);
+    scalingButton7->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton8 = new ImageButton ("new button"));
+    scalingButton8->setButtonText (TRANS("Scale 08"));
+    scalingButton8->addListener (this);
 
-    scaling8->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling6 = new ImageButton ("new button"));
-    scaling6->addListener (this);
+    scalingButton8->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton6 = new ImageButton ("new button"));
+    scalingButton6->addListener (this);
 
-    scaling6->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling4 = new ImageButton ("new button"));
-    scaling4->addListener (this);
+    scalingButton6->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton4 = new ImageButton ("new button"));
+    scalingButton4->addListener (this);
 
-    scaling4->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling5 = new ImageButton ("new button"));
-    scaling5->setButtonText (TRANS("Scale 08"));
-    scaling5->addListener (this);
+    scalingButton4->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton5 = new ImageButton ("new button"));
+    scalingButton5->setButtonText (TRANS("Scale 08"));
+    scalingButton5->addListener (this);
 
-    scaling5->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling3 = new ImageButton ("new button"));
-    scaling3->addListener (this);
+    scalingButton5->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton3 = new ImageButton ("new button"));
+    scalingButton3->addListener (this);
 
-    scaling3->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling2 = new ImageButton ("new button"));
-    scaling2->addListener (this);
+    scalingButton3->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton2 = new ImageButton ("new button"));
+    scalingButton2->addListener (this);
 
-    scaling2->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaling1 = new ImageButton ("new button"));
-    scaling1->addListener (this);
+    scalingButton2->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (scalingButton1 = new ImageButton ("new button"));
+    scalingButton1->addListener (this);
 
-    scaling1->setImages (false, true, true,
-                         ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
-                         ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton12 = new ImageButton ("new button"));
-    sequeceButton12->addListener (this);
+    scalingButton1->setImages (false, true, true,
+                               ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
+                               ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton12 = new ImageButton ("new button"));
+    sequenceButton12->addListener (this);
 
-    sequeceButton12->setImages (false, true, true,
+    sequenceButton12->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton11 = new ImageButton ("new button"));
+    sequenceButton11->addListener (this);
+
+    sequenceButton11->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton10 = new ImageButton ("new button"));
+    sequenceButton10->addListener (this);
+
+    sequenceButton10->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton9 = new ImageButton ("new button"));
+    sequenceButton9->addListener (this);
+
+    sequenceButton9->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton11 = new ImageButton ("new button"));
-    sequeceButton11->addListener (this);
+    addAndMakeVisible (sequenceButton16 = new ImageButton ("new button"));
+    sequenceButton16->addListener (this);
 
-    sequeceButton11->setImages (false, true, true,
+    sequenceButton16->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton15 = new ImageButton ("new button"));
+    sequenceButton15->addListener (this);
+
+    sequenceButton15->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton14 = new ImageButton ("new button"));
+    sequenceButton14->addListener (this);
+
+    sequenceButton14->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton13 = new ImageButton ("new button"));
+    sequenceButton13->addListener (this);
+
+    sequenceButton13->setImages (false, true, true,
+                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton4 = new ImageButton ("new button"));
+    sequenceButton4->addListener (this);
+
+    sequenceButton4->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton10 = new ImageButton ("new button"));
-    sequeceButton10->addListener (this);
+    addAndMakeVisible (sequenceButton3 = new ImageButton ("new button"));
+    sequenceButton3->addListener (this);
 
-    sequeceButton10->setImages (false, true, true,
+    sequenceButton3->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton9 = new ImageButton ("new button"));
-    sequeceButton9->addListener (this);
+    addAndMakeVisible (sequenceButton2 = new ImageButton ("new button"));
+    sequenceButton2->setRadioGroupId (1);
+    sequenceButton2->addListener (this);
 
-    sequeceButton9->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton16 = new ImageButton ("new button"));
-    sequeceButton16->addListener (this);
-
-    sequeceButton16->setImages (false, true, true,
+    sequenceButton2->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton15 = new ImageButton ("new button"));
-    sequeceButton15->addListener (this);
+    addAndMakeVisible (sequenceButton1 = new ImageButton ("new button"));
+    sequenceButton1->setRadioGroupId (1);
+    sequenceButton1->addListener (this);
 
-    sequeceButton15->setImages (false, true, true,
+    sequenceButton1->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton14 = new ImageButton ("new button"));
-    sequeceButton14->addListener (this);
+    addAndMakeVisible (sequenceButton8 = new ImageButton ("new button"));
+    sequenceButton8->addListener (this);
 
-    sequeceButton14->setImages (false, true, true,
+    sequenceButton8->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton13 = new ImageButton ("new button"));
-    sequeceButton13->addListener (this);
+    addAndMakeVisible (sequenceButton7 = new ImageButton ("new button"));
+    sequenceButton7->addListener (this);
 
-    sequeceButton13->setImages (false, true, true,
+    sequenceButton7->setImages (false, true, true,
                                 ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
                                 ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton4 = new ImageButton ("new button"));
-    sequeceButton4->addListener (this);
+    addAndMakeVisible (sequenceButton6 = new ImageButton ("new button"));
+    sequenceButton6->addListener (this);
 
-    sequeceButton4->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton3 = new ImageButton ("new button"));
-    sequeceButton3->addListener (this);
+    sequenceButton6->setImages (false, true, true,
+                                ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    addAndMakeVisible (sequenceButton5 = new ImageButton ("new button"));
+    sequenceButton5->addListener (this);
 
-    sequeceButton3->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton2 = new ImageButton ("new button"));
-    sequeceButton2->setRadioGroupId (1);
-    sequeceButton2->addListener (this);
-
-    sequeceButton2->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton1 = new ImageButton ("new button"));
-    sequeceButton1->setRadioGroupId (1);
-    sequeceButton1->addListener (this);
-
-    sequeceButton1->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton8 = new ImageButton ("new button"));
-    sequeceButton8->addListener (this);
-
-    sequeceButton8->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton7 = new ImageButton ("new button"));
-    sequeceButton7->addListener (this);
-
-    sequeceButton7->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton6 = new ImageButton ("new button"));
-    sequeceButton6->addListener (this);
-
-    sequeceButton6->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (sequeceButton5 = new ImageButton ("new button"));
-    sequeceButton5->addListener (this);
-
-    sequeceButton5->setImages (false, true, true,
-                               ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
-                               ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
+    sequenceButton5->setImages (false, true, true,
+                                ImageCache::getFromMemory (_96x54Buttun_0layersCopy_png, _96x54Buttun_0layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                ImageCache::getFromMemory (_96x54Buttun_1layersCopy_png, _96x54Buttun_1layersCopy_pngSize), 1.000f, Colour (0x00000000),
+                                ImageCache::getFromMemory (_96x54Buttun_2layersCopy_png, _96x54Buttun_2layersCopy_pngSize), 1.000f, Colour (0x00000000));
     addAndMakeVisible (stepButton16 = new ImageButton ("new button"));
     stepButton16->addListener (this);
 
@@ -670,30 +670,30 @@ Interface::~Interface()
     controlsButton5 = nullptr;
     controlsButton6 = nullptr;
     controlsButton4 = nullptr;
-    scaling7 = nullptr;
-    scaling8 = nullptr;
-    scaling6 = nullptr;
-    scaling4 = nullptr;
-    scaling5 = nullptr;
-    scaling3 = nullptr;
-    scaling2 = nullptr;
-    scaling1 = nullptr;
-    sequeceButton12 = nullptr;
-    sequeceButton11 = nullptr;
-    sequeceButton10 = nullptr;
-    sequeceButton9 = nullptr;
-    sequeceButton16 = nullptr;
-    sequeceButton15 = nullptr;
-    sequeceButton14 = nullptr;
-    sequeceButton13 = nullptr;
-    sequeceButton4 = nullptr;
-    sequeceButton3 = nullptr;
-    sequeceButton2 = nullptr;
-    sequeceButton1 = nullptr;
-    sequeceButton8 = nullptr;
-    sequeceButton7 = nullptr;
-    sequeceButton6 = nullptr;
-    sequeceButton5 = nullptr;
+    scalingButton7 = nullptr;
+    scalingButton8 = nullptr;
+    scalingButton6 = nullptr;
+    scalingButton4 = nullptr;
+    scalingButton5 = nullptr;
+    scalingButton3 = nullptr;
+    scalingButton2 = nullptr;
+    scalingButton1 = nullptr;
+    sequenceButton12 = nullptr;
+    sequenceButton11 = nullptr;
+    sequenceButton10 = nullptr;
+    sequenceButton9 = nullptr;
+    sequenceButton16 = nullptr;
+    sequenceButton15 = nullptr;
+    sequenceButton14 = nullptr;
+    sequenceButton13 = nullptr;
+    sequenceButton4 = nullptr;
+    sequenceButton3 = nullptr;
+    sequenceButton2 = nullptr;
+    sequenceButton1 = nullptr;
+    sequenceButton8 = nullptr;
+    sequenceButton7 = nullptr;
+    sequenceButton6 = nullptr;
+    sequenceButton5 = nullptr;
     stepButton16 = nullptr;
     stepButton15 = nullptr;
     stepButton14 = nullptr;
@@ -839,30 +839,30 @@ void Interface::resized()
     controlsButton5->setBounds (656, 304, 96, 54);
     controlsButton6->setBounds (784, 304, 96, 54);
     controlsButton4->setBounds (528, 304, 96, 54);
-    scaling7->setBounds (784, 27, 96, 94);
-    scaling8->setBounds (912, 27, 96, 94);
-    scaling6->setBounds (656, 27, 96, 94);
-    scaling4->setBounds (400, 27, 96, 94);
-    scaling5->setBounds (528, 27, 96, 94);
-    scaling3->setBounds (273, 27, 96, 94);
-    scaling2->setBounds (145, 27, 96, 94);
-    scaling1->setBounds (17, 27, 96, 94);
-    sequeceButton12->setBounds (708, 154, 56, 32);
-    sequeceButton11->setBounds (644, 154, 56, 32);
-    sequeceButton10->setBounds (580, 154, 56, 32);
-    sequeceButton9->setBounds (516, 154, 56, 32);
-    sequeceButton16->setBounds (964, 154, 56, 32);
-    sequeceButton15->setBounds (900, 154, 56, 32);
-    sequeceButton14->setBounds (836, 154, 56, 32);
-    sequeceButton13->setBounds (772, 154, 56, 32);
-    sequeceButton4->setBounds (196, 154, 56, 32);
-    sequeceButton3->setBounds (132, 154, 56, 32);
-    sequeceButton2->setBounds (68, 154, 56, 32);
-    sequeceButton1->setBounds (4, 154, 56, 32);
-    sequeceButton8->setBounds (452, 154, 56, 32);
-    sequeceButton7->setBounds (388, 154, 56, 32);
-    sequeceButton6->setBounds (324, 154, 56, 32);
-    sequeceButton5->setBounds (260, 154, 56, 32);
+    scalingButton7->setBounds (784, 27, 96, 94);
+    scalingButton8->setBounds (912, 27, 96, 94);
+    scalingButton6->setBounds (656, 27, 96, 94);
+    scalingButton4->setBounds (400, 27, 96, 94);
+    scalingButton5->setBounds (528, 27, 96, 94);
+    scalingButton3->setBounds (273, 27, 96, 94);
+    scalingButton2->setBounds (145, 27, 96, 94);
+    scalingButton1->setBounds (17, 27, 96, 94);
+    sequenceButton12->setBounds (708, 154, 56, 32);
+    sequenceButton11->setBounds (644, 154, 56, 32);
+    sequenceButton10->setBounds (580, 154, 56, 32);
+    sequenceButton9->setBounds (516, 154, 56, 32);
+    sequenceButton16->setBounds (964, 154, 56, 32);
+    sequenceButton15->setBounds (900, 154, 56, 32);
+    sequenceButton14->setBounds (836, 154, 56, 32);
+    sequenceButton13->setBounds (772, 154, 56, 32);
+    sequenceButton4->setBounds (196, 154, 56, 32);
+    sequenceButton3->setBounds (132, 154, 56, 32);
+    sequenceButton2->setBounds (68, 154, 56, 32);
+    sequenceButton1->setBounds (4, 154, 56, 32);
+    sequenceButton8->setBounds (452, 154, 56, 32);
+    sequenceButton7->setBounds (388, 154, 56, 32);
+    sequenceButton6->setBounds (324, 154, 56, 32);
+    sequenceButton5->setBounds (260, 154, 56, 32);
     stepButton16->setBounds (964, 215, 56, 50);
     stepButton15->setBounds (900, 215, 56, 50);
     stepButton14->setBounds (835, 215, 56, 50);
@@ -945,125 +945,125 @@ void Interface::buttonClicked (Button* buttonThatWasClicked)
         //[UserButtonCode_controlsButton4] -- add your button handler code here..
         //[/UserButtonCode_controlsButton4]
     }
-    else if (buttonThatWasClicked == scaling7)
+    else if (buttonThatWasClicked == scalingButton7)
     {
-        //[UserButtonCode_scaling7] -- add your button handler code here..
-        //[/UserButtonCode_scaling7]
+        //[UserButtonCode_scalingButton7] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton7]
     }
-    else if (buttonThatWasClicked == scaling8)
+    else if (buttonThatWasClicked == scalingButton8)
     {
-        //[UserButtonCode_scaling8] -- add your button handler code here..
-        //[/UserButtonCode_scaling8]
+        //[UserButtonCode_scalingButton8] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton8]
     }
-    else if (buttonThatWasClicked == scaling6)
+    else if (buttonThatWasClicked == scalingButton6)
     {
-        //[UserButtonCode_scaling6] -- add your button handler code here..
-        //[/UserButtonCode_scaling6]
+        //[UserButtonCode_scalingButton6] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton6]
     }
-    else if (buttonThatWasClicked == scaling4)
+    else if (buttonThatWasClicked == scalingButton4)
     {
-        //[UserButtonCode_scaling4] -- add your button handler code here..
-        //[/UserButtonCode_scaling4]
+        //[UserButtonCode_scalingButton4] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton4]
     }
-    else if (buttonThatWasClicked == scaling5)
+    else if (buttonThatWasClicked == scalingButton5)
     {
-        //[UserButtonCode_scaling5] -- add your button handler code here..
-        //[/UserButtonCode_scaling5]
+        //[UserButtonCode_scalingButton5] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton5]
     }
-    else if (buttonThatWasClicked == scaling3)
+    else if (buttonThatWasClicked == scalingButton3)
     {
-        //[UserButtonCode_scaling3] -- add your button handler code here..
-        //[/UserButtonCode_scaling3]
+        //[UserButtonCode_scalingButton3] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton3]
     }
-    else if (buttonThatWasClicked == scaling2)
+    else if (buttonThatWasClicked == scalingButton2)
     {
-        //[UserButtonCode_scaling2] -- add your button handler code here..
-        //[/UserButtonCode_scaling2]
+        //[UserButtonCode_scalingButton2] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton2]
     }
-    else if (buttonThatWasClicked == scaling1)
+    else if (buttonThatWasClicked == scalingButton1)
     {
-        //[UserButtonCode_scaling1] -- add your button handler code here..
-        //[/UserButtonCode_scaling1]
+        //[UserButtonCode_scalingButton1] -- add your button handler code here..
+        //[/UserButtonCode_scalingButton1]
     }
-    else if (buttonThatWasClicked == sequeceButton12)
+    else if (buttonThatWasClicked == sequenceButton12)
     {
-        //[UserButtonCode_sequeceButton12] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton12]
+        //[UserButtonCode_sequenceButton12] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton12]
     }
-    else if (buttonThatWasClicked == sequeceButton11)
+    else if (buttonThatWasClicked == sequenceButton11)
     {
-        //[UserButtonCode_sequeceButton11] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton11]
+        //[UserButtonCode_sequenceButton11] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton11]
     }
-    else if (buttonThatWasClicked == sequeceButton10)
+    else if (buttonThatWasClicked == sequenceButton10)
     {
-        //[UserButtonCode_sequeceButton10] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton10]
+        //[UserButtonCode_sequenceButton10] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton10]
     }
-    else if (buttonThatWasClicked == sequeceButton9)
+    else if (buttonThatWasClicked == sequenceButton9)
     {
-        //[UserButtonCode_sequeceButton9] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton9]
+        //[UserButtonCode_sequenceButton9] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton9]
     }
-    else if (buttonThatWasClicked == sequeceButton16)
+    else if (buttonThatWasClicked == sequenceButton16)
     {
-        //[UserButtonCode_sequeceButton16] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton16]
+        //[UserButtonCode_sequenceButton16] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton16]
     }
-    else if (buttonThatWasClicked == sequeceButton15)
+    else if (buttonThatWasClicked == sequenceButton15)
     {
-        //[UserButtonCode_sequeceButton15] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton15]
+        //[UserButtonCode_sequenceButton15] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton15]
     }
-    else if (buttonThatWasClicked == sequeceButton14)
+    else if (buttonThatWasClicked == sequenceButton14)
     {
-        //[UserButtonCode_sequeceButton14] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton14]
+        //[UserButtonCode_sequenceButton14] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton14]
     }
-    else if (buttonThatWasClicked == sequeceButton13)
+    else if (buttonThatWasClicked == sequenceButton13)
     {
-        //[UserButtonCode_sequeceButton13] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton13]
+        //[UserButtonCode_sequenceButton13] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton13]
     }
-    else if (buttonThatWasClicked == sequeceButton4)
+    else if (buttonThatWasClicked == sequenceButton4)
     {
-        //[UserButtonCode_sequeceButton4] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton4]
+        //[UserButtonCode_sequenceButton4] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton4]
     }
-    else if (buttonThatWasClicked == sequeceButton3)
+    else if (buttonThatWasClicked == sequenceButton3)
     {
-        //[UserButtonCode_sequeceButton3] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton3]
+        //[UserButtonCode_sequenceButton3] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton3]
     }
-    else if (buttonThatWasClicked == sequeceButton2)
+    else if (buttonThatWasClicked == sequenceButton2)
     {
-        //[UserButtonCode_sequeceButton2] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton2]
+        //[UserButtonCode_sequenceButton2] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton2]
     }
-    else if (buttonThatWasClicked == sequeceButton1)
+    else if (buttonThatWasClicked == sequenceButton1)
     {
-        //[UserButtonCode_sequeceButton1] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton1]
+        //[UserButtonCode_sequenceButton1] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton1]
     }
-    else if (buttonThatWasClicked == sequeceButton8)
+    else if (buttonThatWasClicked == sequenceButton8)
     {
-        //[UserButtonCode_sequeceButton8] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton8]
+        //[UserButtonCode_sequenceButton8] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton8]
     }
-    else if (buttonThatWasClicked == sequeceButton7)
+    else if (buttonThatWasClicked == sequenceButton7)
     {
-        //[UserButtonCode_sequeceButton7] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton7]
+        //[UserButtonCode_sequenceButton7] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton7]
     }
-    else if (buttonThatWasClicked == sequeceButton6)
+    else if (buttonThatWasClicked == sequenceButton6)
     {
-        //[UserButtonCode_sequeceButton6] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton6]
+        //[UserButtonCode_sequenceButton6] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton6]
     }
-    else if (buttonThatWasClicked == sequeceButton5)
+    else if (buttonThatWasClicked == sequenceButton5)
     {
-        //[UserButtonCode_sequeceButton5] -- add your button handler code here..
-        //[/UserButtonCode_sequeceButton5]
+        //[UserButtonCode_sequenceButton5] -- add your button handler code here..
+        //[/UserButtonCode_sequenceButton5]
     }
     else if (buttonThatWasClicked == stepButton16)
     {
@@ -1392,160 +1392,160 @@ BEGIN_JUCER_METADATA
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="ab2f4b41b368c32e" memberName="scaling7"
+  <IMAGEBUTTON name="new button" id="ab2f4b41b368c32e" memberName="scalingButton7"
                virtualName="" explicitFocusOrder="0" pos="784 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="6bdcfcd0acb7a9c5" memberName="scaling8"
+  <IMAGEBUTTON name="new button" id="6bdcfcd0acb7a9c5" memberName="scalingButton8"
                virtualName="" explicitFocusOrder="0" pos="912 27 96 94" buttonText="Scale 08"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="7cf3c3c62a93fc5b" memberName="scaling6"
+  <IMAGEBUTTON name="new button" id="7cf3c3c62a93fc5b" memberName="scalingButton6"
                virtualName="" explicitFocusOrder="0" pos="656 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="a87c59356a36b2d5" memberName="scaling4"
+  <IMAGEBUTTON name="new button" id="a87c59356a36b2d5" memberName="scalingButton4"
                virtualName="" explicitFocusOrder="0" pos="400 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="4c0082af867fe339" memberName="scaling5"
+  <IMAGEBUTTON name="new button" id="4c0082af867fe339" memberName="scalingButton5"
                virtualName="" explicitFocusOrder="0" pos="528 27 96 94" buttonText="Scale 08"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="2b60b032434dbd89" memberName="scaling3"
+  <IMAGEBUTTON name="new button" id="2b60b032434dbd89" memberName="scalingButton3"
                virtualName="" explicitFocusOrder="0" pos="273 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="cd48f0d96d3c7781" memberName="scaling2"
+  <IMAGEBUTTON name="new button" id="cd48f0d96d3c7781" memberName="scalingButton2"
                virtualName="" explicitFocusOrder="0" pos="145 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="914430585a2f659e" memberName="scaling1"
+  <IMAGEBUTTON name="new button" id="914430585a2f659e" memberName="scalingButton1"
                virtualName="" explicitFocusOrder="0" pos="17 27 96 94" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x96But_05_png" opacityNormal="1" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="daab385362f1a1de" memberName="sequeceButton12"
+  <IMAGEBUTTON name="new button" id="daab385362f1a1de" memberName="sequenceButton12"
                virtualName="" explicitFocusOrder="0" pos="708 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="a7d7a1925d667279" memberName="sequeceButton11"
+  <IMAGEBUTTON name="new button" id="a7d7a1925d667279" memberName="sequenceButton11"
                virtualName="" explicitFocusOrder="0" pos="644 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="c5d99e5de4d4a573" memberName="sequeceButton10"
+  <IMAGEBUTTON name="new button" id="c5d99e5de4d4a573" memberName="sequenceButton10"
                virtualName="" explicitFocusOrder="0" pos="580 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="d15a7e2cc4aa408c" memberName="sequeceButton9"
+  <IMAGEBUTTON name="new button" id="d15a7e2cc4aa408c" memberName="sequenceButton9"
                virtualName="" explicitFocusOrder="0" pos="516 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="f9fb3a5e15300681" memberName="sequeceButton16"
+  <IMAGEBUTTON name="new button" id="f9fb3a5e15300681" memberName="sequenceButton16"
                virtualName="" explicitFocusOrder="0" pos="964 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="22dc1282ae39b4d2" memberName="sequeceButton15"
+  <IMAGEBUTTON name="new button" id="22dc1282ae39b4d2" memberName="sequenceButton15"
                virtualName="" explicitFocusOrder="0" pos="900 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="6624d8360f4e868" memberName="sequeceButton14"
+  <IMAGEBUTTON name="new button" id="6624d8360f4e868" memberName="sequenceButton14"
                virtualName="" explicitFocusOrder="0" pos="836 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="98cc620f7b2f91d4" memberName="sequeceButton13"
+  <IMAGEBUTTON name="new button" id="98cc620f7b2f91d4" memberName="sequenceButton13"
                virtualName="" explicitFocusOrder="0" pos="772 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="ef7cc1b483680693" memberName="sequeceButton4"
+  <IMAGEBUTTON name="new button" id="ef7cc1b483680693" memberName="sequenceButton4"
                virtualName="" explicitFocusOrder="0" pos="196 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="716ffcdc49a7f531" memberName="sequeceButton3"
+  <IMAGEBUTTON name="new button" id="716ffcdc49a7f531" memberName="sequenceButton3"
                virtualName="" explicitFocusOrder="0" pos="132 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="fae93eeda4ea57a9" memberName="sequeceButton2"
+  <IMAGEBUTTON name="new button" id="fae93eeda4ea57a9" memberName="sequenceButton2"
                virtualName="" explicitFocusOrder="0" pos="68 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="1" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="68ba94d68ac78e91" memberName="sequeceButton1"
+  <IMAGEBUTTON name="new button" id="68ba94d68ac78e91" memberName="sequenceButton1"
                virtualName="" explicitFocusOrder="0" pos="4 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="1" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="2154c645cde176ae" memberName="sequeceButton8"
+  <IMAGEBUTTON name="new button" id="2154c645cde176ae" memberName="sequenceButton8"
                virtualName="" explicitFocusOrder="0" pos="452 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="ebc2456642854d8c" memberName="sequeceButton7"
+  <IMAGEBUTTON name="new button" id="ebc2456642854d8c" memberName="sequenceButton7"
                virtualName="" explicitFocusOrder="0" pos="388 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="f9dcbd0be77c2bdc" memberName="sequeceButton6"
+  <IMAGEBUTTON name="new button" id="f9dcbd0be77c2bdc" memberName="sequenceButton6"
                virtualName="" explicitFocusOrder="0" pos="324 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
                colourNormal="0" resourceOver="_96x54Buttun_1layersCopy_png"
                opacityOver="1" colourOver="0" resourceDown="_96x54Buttun_2layersCopy_png"
                opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="ef9e2eddba311c97" memberName="sequeceButton5"
+  <IMAGEBUTTON name="new button" id="ef9e2eddba311c97" memberName="sequenceButton5"
                virtualName="" explicitFocusOrder="0" pos="260 154 56 32" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="0" keepProportions="1"
                resourceNormal="_96x54Buttun_0layersCopy_png" opacityNormal="1"
