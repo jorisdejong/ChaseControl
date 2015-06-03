@@ -620,15 +620,14 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
+    cachedImage__1024x52_rekordbalk01_png = ImageCache::getFromMemory (_1024x52_rekordbalk01_png, _1024x52_rekordbalk01_pngSize);
+    cachedImage__1024x112_rekordbalk01_3_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_3_png, _1024x112_rekordbalk01_3_pngSize);
     cachedImage__1024x112_rekordbalk01_2_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_2_png, _1024x112_rekordbalk01_2_pngSize);
+    cachedImage__1024x112_rekordbalk01_1_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_1_png, _1024x112_rekordbalk01_1_pngSize);
+    cachedImage__1024x21_balkGrijs_05_png = ImageCache::getFromMemory (_1024x21_balkGrijs_05_png, _1024x21_balkGrijs_05_pngSize);
     cachedImage__1024x224_rekordbalk03_png = ImageCache::getFromMemory (_1024x224_rekordbalk03_png, _1024x224_rekordbalk03_pngSize);
     cachedImage__1024x224_rekordbalk05_png = ImageCache::getFromMemory (_1024x224_rekordbalk05_png, _1024x224_rekordbalk05_pngSize);
-    cachedImage__1024x52_rekordbalk01_png = ImageCache::getFromMemory (_1024x52_rekordbalk01_png, _1024x52_rekordbalk01_pngSize);
-    cachedImage__1024x21_balkGrijs_05_png = ImageCache::getFromMemory (_1024x21_balkGrijs_05_png, _1024x21_balkGrijs_05_pngSize);
-    cachedImage__1024x112_rekordbalk01_1_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_1_png, _1024x112_rekordbalk01_1_pngSize);
-    cachedImage__1024x16_balkGrijs_01_png = ImageCache::getFromMemory (_1024x16_balkGrijs_01_png, _1024x16_balkGrijs_01_pngSize);
     cachedImage__1024x112_rekordbalk01_4_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_4_png, _1024x112_rekordbalk01_4_pngSize);
-    cachedImage__1024x112_rekordbalk01_3_png = ImageCache::getFromMemory (_1024x112_rekordbalk01_3_png, _1024x112_rekordbalk01_3_pngSize);
     cachedImage__1024x16_balkGrijs_01_png = ImageCache::getFromMemory (_1024x16_balkGrijs_01_png, _1024x16_balkGrijs_01_pngSize);
     cachedImage__1024x16_balkGrijs_02_png = ImageCache::getFromMemory (_1024x16_balkGrijs_02_png, _1024x16_balkGrijs_02_pngSize);
     cachedImage__1024x16_balkGrijs_03_png = ImageCache::getFromMemory (_1024x16_balkGrijs_03_png, _1024x16_balkGrijs_03_pngSize);
@@ -754,9 +753,29 @@ void Interface::paint (Graphics& g)
     g.fillAll (Colour (0xff373737));
 
     g.setColour (Colours::black);
+    g.drawImage (cachedImage__1024x52_rekordbalk01_png,
+                 0, 276, 1024, 52,
+                 0, 0, cachedImage__1024x52_rekordbalk01_png.getWidth(), cachedImage__1024x52_rekordbalk01_png.getHeight());
+
+    g.setColour (Colours::black);
+    g.drawImage (cachedImage__1024x112_rekordbalk01_3_png,
+                 0, 264, 1024, 112,
+                 0, 0, cachedImage__1024x112_rekordbalk01_3_png.getWidth(), cachedImage__1024x112_rekordbalk01_3_png.getHeight());
+
+    g.setColour (Colours::black);
     g.drawImage (cachedImage__1024x112_rekordbalk01_2_png,
                  0, 150, 1024, 120,
                  0, 0, cachedImage__1024x112_rekordbalk01_2_png.getWidth(), cachedImage__1024x112_rekordbalk01_2_png.getHeight());
+
+    g.setColour (Colours::black);
+    g.drawImage (cachedImage__1024x112_rekordbalk01_1_png,
+                 0, 20, 1024, 112,
+                 0, 0, cachedImage__1024x112_rekordbalk01_1_png.getWidth(), cachedImage__1024x112_rekordbalk01_1_png.getHeight());
+
+    g.setColour (Colours::black.withAlpha (0.750f));
+    g.drawImage (cachedImage__1024x21_balkGrijs_05_png,
+                 0, 188, 1024, 21,
+                 0, 0, cachedImage__1024x21_balkGrijs_05_png.getWidth(), cachedImage__1024x21_balkGrijs_05_png.getHeight());
 
     g.setColour (Colours::black);
     g.drawImage (cachedImage__1024x224_rekordbalk03_png,
@@ -769,34 +788,9 @@ void Interface::paint (Graphics& g)
                  0, 0, cachedImage__1024x224_rekordbalk05_png.getWidth(), cachedImage__1024x224_rekordbalk05_png.getHeight());
 
     g.setColour (Colours::black);
-    g.drawImage (cachedImage__1024x52_rekordbalk01_png,
-                 0, 276, 1024, 52,
-                 0, 0, cachedImage__1024x52_rekordbalk01_png.getWidth(), cachedImage__1024x52_rekordbalk01_png.getHeight());
-
-    g.setColour (Colours::black.withAlpha (0.750f));
-    g.drawImage (cachedImage__1024x21_balkGrijs_05_png,
-                 0, 188, 1024, 21,
-                 0, 0, cachedImage__1024x21_balkGrijs_05_png.getWidth(), cachedImage__1024x21_balkGrijs_05_png.getHeight());
-
-    g.setColour (Colours::black);
-    g.drawImage (cachedImage__1024x112_rekordbalk01_1_png,
-                 0, 20, 1024, 112,
-                 0, 0, cachedImage__1024x112_rekordbalk01_1_png.getWidth(), cachedImage__1024x112_rekordbalk01_1_png.getHeight());
-
-    g.setColour (Colours::black);
-    g.drawImage (cachedImage__1024x16_balkGrijs_01_png,
-                 0, 268, 1024, 16,
-                 0, 0, cachedImage__1024x16_balkGrijs_01_png.getWidth(), cachedImage__1024x16_balkGrijs_01_png.getHeight());
-
-    g.setColour (Colours::black);
     g.drawImage (cachedImage__1024x112_rekordbalk01_4_png,
                  0, 380, 1024, 112,
                  0, 0, cachedImage__1024x112_rekordbalk01_4_png.getWidth(), cachedImage__1024x112_rekordbalk01_4_png.getHeight());
-
-    g.setColour (Colours::black);
-    g.drawImage (cachedImage__1024x112_rekordbalk01_3_png,
-                 0, 264, 1024, 112,
-                 0, 0, cachedImage__1024x112_rekordbalk01_3_png.getWidth(), cachedImage__1024x112_rekordbalk01_3_png.getHeight());
 
     g.setColour (Colours::black);
     g.drawImage (cachedImage__1024x16_balkGrijs_01_png,
@@ -1321,25 +1315,23 @@ BEGIN_JUCER_METADATA
                  snapPixels="8" snapActive="1" snapShown="1" overlayOpacity="0.330"
                  fixedSize="0" initialWidth="2048" initialHeight="1536">
   <BACKGROUND backgroundColour="ff373737">
-    <IMAGE pos="0 164 1024 16" resource="_1024x16_balkGrijs_01_png" opacity="0"
+    <IMAGE pos="0 276 1024 52" resource="_1024x52_rekordbalk01_png" opacity="1"
            mode="0"/>
+    <IMAGE pos="0 264 1024 112" resource="_1024x112_rekordbalk01_3_png"
+           opacity="1" mode="0"/>
     <IMAGE pos="0 150 1024 120" resource="_1024x112_rekordbalk01_2_png"
            opacity="1" mode="0"/>
+    <IMAGE pos="0 20 1024 112" resource="_1024x112_rekordbalk01_1_png" opacity="1"
+           mode="0"/>
+    <IMAGE pos="0 188 1024 21" resource="_1024x21_balkGrijs_05_png" opacity="0.75"
+           mode="0"/>
+    <IMAGE pos="0 164 1024 16" resource="_1024x16_balkGrijs_01_png" opacity="0"
+           mode="0"/>
     <IMAGE pos="0 508 1024 224" resource="_1024x224_rekordbalk03_png" opacity="1"
            mode="0"/>
     <IMAGE pos="0 212 1 224" resource="_1024x224_rekordbalk05_png" opacity="1"
            mode="0"/>
-    <IMAGE pos="0 276 1024 52" resource="_1024x52_rekordbalk01_png" opacity="1"
-           mode="0"/>
-    <IMAGE pos="0 188 1024 21" resource="_1024x21_balkGrijs_05_png" opacity="0.75"
-           mode="0"/>
-    <IMAGE pos="0 20 1024 112" resource="_1024x112_rekordbalk01_1_png" opacity="1"
-           mode="0"/>
-    <IMAGE pos="0 268 1024 16" resource="_1024x16_balkGrijs_01_png" opacity="1"
-           mode="0"/>
     <IMAGE pos="0 380 1024 112" resource="_1024x112_rekordbalk01_4_png"
-           opacity="1" mode="0"/>
-    <IMAGE pos="0 264 1024 112" resource="_1024x112_rekordbalk01_3_png"
            opacity="1" mode="0"/>
     <IMAGE pos="0 4 1024 16" resource="_1024x16_balkGrijs_01_png" opacity="1"
            mode="0"/>
