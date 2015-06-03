@@ -32,9 +32,9 @@ TabComponent::TabComponent ()
 {
     addAndMakeVisible (tabbedComponent = new TabbedComponent (TabbedButtonBar::TabsAtTop));
     tabbedComponent->setTabBarDepth (30);
-    tabbedComponent->addTab (TRANS("Tab 0"), Colours::lightgrey, new Interface(), true);
-    tabbedComponent->addTab (TRANS("Tab 1"), Colours::lightgrey, new Interface(), true);
-    tabbedComponent->addTab (TRANS("Tab 2"), Colours::lightgrey, new Interface(), true);
+    tabbedComponent->addTab (TRANS("Layer 1"), Colours::lightgrey, new Interface(), true);
+    tabbedComponent->addTab (TRANS("Layer 2"), Colours::lightgrey, new Interface(), true);
+    tabbedComponent->addTab (TRANS("Layer 3"), Colours::lightgrey, new Interface(), true);
     tabbedComponent->setCurrentTabIndex (0);
 
 
@@ -105,11 +105,11 @@ BEGIN_JUCER_METADATA
   <TABBEDCOMPONENT name="new tabbed component" id="d82ee5c5168b0711" memberName="tabbedComponent"
                    virtualName="" explicitFocusOrder="0" pos="0 0 100% 100%" orientation="top"
                    tabBarDepth="30" initialTab="0">
-    <TAB name="Tab 0" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
+    <TAB name="Layer 1" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
          constructorParams="" jucerComponentFile="Interface.cpp"/>
-    <TAB name="Tab 1" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
+    <TAB name="Layer 2" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
          constructorParams="" jucerComponentFile="Interface.cpp"/>
-    <TAB name="Tab 2" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
+    <TAB name="Layer 3" colour="ffd3d3d3" useJucerComp="1" contentClassName=""
          constructorParams="" jucerComponentFile="Interface.cpp"/>
   </TABBEDCOMPONENT>
 </JUCER_COMPONENT>

@@ -176,14 +176,14 @@ private:
     Image cachedImage__1024x224_rekordbalk05_png;
     Image cachedImage__1024x52_rekordbalk01_png;
     Image cachedImage__1024x21_balkGrijs_05_png;
-//    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x112_rekordbalk01_png;
     Image cachedImage__1024x16_balkGrijs_01_png;
-//    Image cachedImage__1024x112_rekordbalk01_png;
-//    Image cachedImage__1024x112_rekordbalk01_png;
-//    Image cachedImage__1024x16_balkGrijs_01_png;
-//    Image cachedImage__1024x16_balkGrijs_01_png;
-//    Image cachedImage__1024x16_balkGrijs_01_png;
-//    Image cachedImage__1024x16_balkGrijs_01_png;
+    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x112_rekordbalk01_png;
+    Image cachedImage__1024x16_balkGrijs_01_png;
+    Image cachedImage__1024x16_balkGrijs_01_png;
+    Image cachedImage__1024x16_balkGrijs_01_png;
+    Image cachedImage__1024x16_balkGrijs_01_png;
 
 
     //==============================================================================
