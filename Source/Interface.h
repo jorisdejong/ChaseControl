@@ -156,7 +156,7 @@ private:
     ScopedPointer<ImageButton> scaleButton5;
     ScopedPointer<ImageButton> scaleButton3;
     ScopedPointer<ImageButton> scaleButton2;
-    ScopedPointer<ImageButton> scaleButton1;
+    ScopedPointer<ImageButton> chaseButton9;
     ScopedPointer<Label> Label2;
     ScopedPointer<Label> Label4;
     ScopedPointer<Label> Label5;

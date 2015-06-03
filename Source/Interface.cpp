@@ -511,11 +511,11 @@ Interface::Interface ()
                              ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 0.500f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
-    addAndMakeVisible (scaleButton1 = new ImageButton ("new button"));
-    scaleButton1->setRadioGroupId (2);
-    scaleButton1->addListener (this);
+    addAndMakeVisible (chaseButton9 = new ImageButton ("new button"));
+    chaseButton9->setRadioGroupId (2);
+    chaseButton9->addListener (this);
 
-    scaleButton1->setImages (false, true, false,
+    chaseButton9->setImages (false, true, false,
                              ImageCache::getFromMemory (_96x96But_05_png, _96x96But_05_pngSize), 0.500f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_03_png, _96x96But_03_pngSize), 1.000f, Colour (0x00000000),
                              ImageCache::getFromMemory (_96x96But_04_png, _96x96But_04_pngSize), 1.000f, Colour (0x00000000));
@@ -732,7 +732,7 @@ Interface::~Interface()
     scaleButton5 = nullptr;
     scaleButton3 = nullptr;
     scaleButton2 = nullptr;
-    scaleButton1 = nullptr;
+    chaseButton9 = nullptr;
     Label2 = nullptr;
     Label4 = nullptr;
     Label5 = nullptr;
@@ -901,7 +901,7 @@ void Interface::resized()
     scaleButton5->setBounds (528, 633, 96, 88);
     scaleButton3->setBounds (273, 633, 96, 88);
     scaleButton2->setBounds (145, 633, 96, 88);
-    scaleButton1->setBounds (17, 633, 96, 88);
+    chaseButton9->setBounds (17, 633, 96, 88);
     Label2->setBounds (-4, 185, 1032, 24);
     Label4->setBounds (15, 187, 1000, 24);
     Label5->setBounds (16, 488, 1000, 24);
@@ -1240,10 +1240,10 @@ void Interface::buttonClicked (Button* buttonThatWasClicked)
         //[UserButtonCode_scaleButton2] -- add your button handler code here..
         //[/UserButtonCode_scaleButton2]
     }
-    else if (buttonThatWasClicked == scaleButton1)
+    else if (buttonThatWasClicked == chaseButton9)
     {
-        //[UserButtonCode_scaleButton1] -- add your button handler code here..
-        //[/UserButtonCode_scaleButton1]
+        //[UserButtonCode_chaseButton9] -- add your button handler code here..
+        //[/UserButtonCode_chaseButton9]
     }
     else if (buttonThatWasClicked == controlsButton15)
     {
@@ -1781,7 +1781,7 @@ BEGIN_JUCER_METADATA
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
                resourceOver="_96x96But_03_png" opacityOver="1" colourOver="0"
                resourceDown="_96x96But_04_png" opacityDown="1" colourDown="0"/>
-  <IMAGEBUTTON name="new button" id="8d185f0b0a10188d" memberName="scaleButton1"
+  <IMAGEBUTTON name="new button" id="8d185f0b0a10188d" memberName="chaseButton9"
                virtualName="" explicitFocusOrder="0" pos="17 633 96 88" buttonText="new button"
                connectedEdges="0" needsCallback="1" radioGroupId="2" keepProportions="0"
                resourceNormal="_96x96But_05_png" opacityNormal="0.5" colourNormal="0"
